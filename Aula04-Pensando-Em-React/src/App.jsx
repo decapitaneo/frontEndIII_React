@@ -6,7 +6,7 @@ import './App.css'
 //import HelloFunctionComponent from './components/HelloFunctionComponent'
 //import InputComponent from './components/InputComponent'
 //import { FormComponent } from './components/FormComponent'
-import { MensagemComponent } from './components/MensagemComponent'
+import  MensagemComponent  from './components/MensagemComponent'
 function App() {
   return(
   
@@ -25,7 +25,6 @@ function App() {
     // </FormComponent>
     <>
     
-    <h1>Hello oi</h1>
     
     <MensagemComponent>
     <span>Denise Capitaneo</span>
