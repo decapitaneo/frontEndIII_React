@@ -1,0 +1,11 @@
+.div{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+h1:hover{
+    border: 3px solid purple;
+    color: blue;
+}
