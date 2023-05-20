@@ -1,4 +1,5 @@
-function ListaCidadesComponent(cidades,filtro){
+import CidadeComponent from "./CidadeComponent";
+function ListaCidadesComponent({cidades,filtro}){
     return(
         
             cidades.map((item, index) =>{
