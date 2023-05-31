@@ -42,7 +42,7 @@ function FormComponent() {
     }
     
     const formValidator = () => {
-        if(!(plantName.trim().length >3 && !plantName.startsWith(' ')) || !plantImgUrl.length >= 6 && /\d/.test(plantImgUrl)){
+        if(!(plantName.trim().length >3 && !plantName.startsWith(' ')) || plantImgUrl.length >= 6 && /\d/.test(plantImgUrl)){
             setFormIsValid(true);
         }else {
             setFormIsValid(false);
