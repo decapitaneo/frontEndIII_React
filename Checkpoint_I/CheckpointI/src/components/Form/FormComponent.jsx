@@ -13,6 +13,7 @@ function FormComponent() {
     const [plantList, setPlantList] = useState([]);
     
     
+    
     const handleChangePlantName = (event) => {
         setPlantName(event.target.value);
         formValidator(); 
@@ -24,6 +25,8 @@ function FormComponent() {
     }
     
     const handleButtonClick = () => {
+    
+        
         setPlantList([
             ...plantList,
             {
@@ -43,6 +46,7 @@ function FormComponent() {
             setFormIsValid(true);
         }else {
             setFormIsValid(false);
+            
             
             
         }
